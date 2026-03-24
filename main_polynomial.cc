@@ -1,13 +1,14 @@
-// AUTOR: 
-// FECHA: 
-// EMAIL: 
-// VERSION: 1.0
-// ASIGNATURA: Algoritmos y Estructuras de Datos
-// PRÁCTICA Nº: 3
-// ESTILO: Google C++ Style Guide
-// COMENTARIOS: 
-// COMPILACIÓN: g++ -g main_polynomial.cc -o main_polynomial
-// EJECUCIÓN: ./main_polynomial < data_polynomial.txt
+/** 
+ * AUTOR: Raúl Navarro Cobos
+ * FECHA: 17/03/2026
+ * VERSION: 1.0
+ * ASIGNATURA: Algoritmos y Estructuras de Datos
+ * PRACTICA: 3
+ * ESTILO: Google C++ Style Guide
+ * COMENTARIOS: 
+ * COMPILACION: g++ -g main_polynomial.cc -o main_polynomial
+ * EJECUCION: ./main_polynomial < data_polynomial.txt
+ */
 
 #include <iostream>
 

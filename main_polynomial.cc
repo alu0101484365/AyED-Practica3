@@ -92,5 +92,10 @@ int main()
   cout << "sp3 == p2? " << (sp3.IsEqual(p2) ? "true" : "false") << endl;
   cout << endl;
 
+  // MODIFICACION
+  cout << "Suma sp1: " << sp1.SumSp() << endl;
+  cout << "Suma sp2: " << sp2.SumSp() << endl;
+  cout << "Suma sp3: " << sp3.SumSp() << endl;
+
   return 0;
 }

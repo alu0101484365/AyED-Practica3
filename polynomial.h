@@ -118,6 +118,13 @@ class SparsePolynomial : public sparse_vector_t {
      * @return true si son iguales.
      */
     bool IsEqual(const Polynomial&, const double = EPS) const;
+
+    // MODIFICACION
+    /**
+     * @brief Devuelve la suma de los coeficientes del polinomio
+     * @return Suma de los coeficientes
+     */
+    double SumSp();
 };
 
 
@@ -281,6 +288,19 @@ bool SparsePolynomial::IsEqual(const Polynomial& pol, const double eps) const {
     }
   }
   return !differents;
+}
+
+
+// MODIFICACION
+/**
+ * @brief
+ */
+double SparsePolynomial::SumSp() {
+  double sum{0.0};
+  for (int i = 0; i < get_nz(); i++) {
+    sum += at(i).get_val();
+  }
+  return sum;
 }
 
 #endif  // POLYNOMIAL_H_
